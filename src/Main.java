@@ -75,7 +75,7 @@ public class Main {
         System.out.println("Ingresa otro número Entero final, mayor al anterior. Debe ser menor a 100000 ");
         B = sc8.nextInt();
 
-        if ((A < 0) || (B < 100000)) {
+        if ((A < 0) || (B > 100000)) {
             System.out.println("Ingresa un número mayor a 0 y menor que 100000");
         } else {
             for (int i = A; i <= B; i++) {
